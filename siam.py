@@ -9,6 +9,7 @@ from time           import sleep, time
 from colorama       import Fore, init; init()
 from datetime       import datetime
 from json           import load
+import time
 #~~~~~~~~~~~~~~~LINK ZONE ~~~~~~~~~~~~~~~~~#
 linksiam = str(input("ENTER LINK : "))
 f = open("config.json", "w")
